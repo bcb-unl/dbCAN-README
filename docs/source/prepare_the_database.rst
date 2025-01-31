@@ -1,5 +1,13 @@
 Database Installation Command
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+prepare the conda environment:
+
+.. code-block:: shell
+
+    conda env create -f environment.yml (available at https://github.com/Xinpeng021001/run_dbCAN_new/blob/master/environment.yml)
+    conda activate dbCAN-test-env
+    pip install run-dbcan-new
+
 
 1. We provide command in the run_dbcan script:
 

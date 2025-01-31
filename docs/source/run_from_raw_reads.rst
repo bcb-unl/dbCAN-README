@@ -449,14 +449,14 @@ In the output directory, a total of 17 files and 1 folder are generated:
     - ``cgc.gff``: Reformatted from the user input gff file by marking CAZymes, TFs, TCs, and STPs.
     - ``cgc.out``: Raw output of CGC predictions.
     - ``cgc_standard.out``: Simplified version of cgc.out for easy parsing in TSV format. Example columns include:
-    1. ``CGC_id``: CGC1
-    2. ``type``: CAZyme
-    3. ``contig_id``: k141_272079
-    4. ``gene_id``: k141_272079_6
-    5. ``start``: 5827
-    6. ``end``: 7257
-    7. ``strand``: -
-    8. ``annotation``: GH1
+        1. ``CGC_id``: CGC1
+        2. ``type``: CAZyme
+        3. ``contig_id``: k141_272079
+        4. ``gene_id``: k141_272079_6
+        5. ``start``: 5827
+        6. ``end``: 7257
+        7. ``strand``: -
+        8. ``annotation``: GH1
 
     **Explanation**: The gene Wet2014_00308 encodes a GH1 CAZyme in CGC1 of contig k141_272079. CGC1 also contains other genes, detailed in other rows. Wet2014_00308 is located on the negative strand of k141_272079 from positions 5827 to 7257. The type can be one of four signature gene types (CAZymes, TCs, TFs, STPs) or null type (not annotated as one of the signature genes).
 
